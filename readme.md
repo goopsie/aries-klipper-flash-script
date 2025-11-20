@@ -4,7 +4,7 @@ download this repo as .zip, extract all files to a USB drive.
 
 run "make menuconfig" with settings shown in makemenuconfig.png
 Note, 12Mhz clock only works if klipper/src/stm32/Kconfig is modified with the following:
-```c 
+```
     #default 128000000 if MACH_N32G45x # old line
     default 144000000 if MACH_N32G45x  # new line
 ```
