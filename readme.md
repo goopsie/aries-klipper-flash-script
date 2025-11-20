@@ -22,11 +22,11 @@ firmware.hex file will be automatically flashed to stm32 board via voxelab's bui
 
 connect klipper host to printer via configured UART pins.
 
+suggested you unplug either the ribbon cable connecting the screen to the screen PCB, or the ribbon cable running from the screen PCB to the stm32 board.
 
-suggested you unplug the ribbon cable connecting the screen to the screen PCB. it's useless unless you wish to revert to stock firmware.
 
 
-reverting to stock firmware is as easy as booting the printer as normal.
+reverting to stock firmware is as easy as booting the printer as normal. un-solder uart pins, plug back in any cables you may have unplugged.
 
 you'll get a prompt on-screen stating something akin to "The firmware failed to update. Press OK to retry", with an "OK" button.
 
