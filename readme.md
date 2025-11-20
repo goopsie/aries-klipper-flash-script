@@ -14,7 +14,7 @@ Note, 12Mhz clock only works if klipper/src/stm32/Kconfig is modified with the f
 ```
 If you're uncomfortable with/don't know how to modify this file, use "Internal Clock".
 
-drag klipper.bin onto root of sd card.
+drag klipper.bin onto root of USB drive.
 
 run "to-hex.bat"
 
