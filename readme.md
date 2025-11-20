@@ -1,3 +1,6 @@
+prerequisite: install [srecord](https://srecord.sourceforge.net/download.html)
+(if installing to a non-default directory, "to-hex.bat" will not work out of the box.)
+
 download this repo as .zip, extract all files to a USB drive.
 
 **make sure the usb drive shows up in your printer's menus before continuing.**
