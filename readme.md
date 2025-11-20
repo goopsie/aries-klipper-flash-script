@@ -6,6 +6,7 @@ download this repo as .zip, extract all files to a USB drive.
 **make sure the usb drive shows up in your printer's menus before continuing.**
 
 run "make menuconfig" with settings shown in makemenuconfig.png
+
 Note, 12Mhz clock only works if klipper/src/stm32/Kconfig is modified with the following:
 ```
     #default 128000000 if MACH_N32G45x # old line
