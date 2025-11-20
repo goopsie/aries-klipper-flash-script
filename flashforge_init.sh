@@ -1,2 +1,1 @@
-#!/bin/bash
-sh -x ./flash.sh >> ./log.log
+sh -x /mnt/flash.sh >> ./log.log
